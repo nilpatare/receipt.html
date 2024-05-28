@@ -1,0 +1,98 @@
+body{
+    background-color:pink;
+}
+.brand-logo{
+    width: 100px;
+    display:block;
+    margin: 0 auto;
+}
+.brand-title{
+    text-align: center;
+}
+.receipt-container{
+    width:80%;
+    border:1px solid grey;
+    margin:0 auto;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 20px 15px rgba(0,0,0,0.2);
+}
+.receipt-header{
+    border-bottom: 1px solid gray;
+}
+.address{
+    text-align: right;
+}
+.brand-mobile{
+    text-align: right ;
+}
+.receipt-title{
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0;
+}
+.receipt-body{
+    position: relative;
+    border-bottom: 1px solid rgb(22, 17, 17);
+}
+.receipt-detail{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    max-width: 20px 0;
+}
+.receipt-detail-key{
+    color: rgb(15, 8, 8);
+    width: 30%;
+}
+.receipt-detail-value{
+    font-weight: bold;
+    border-bottom: 1px solid rgb(19, 11, 11);
+    width: 30;
+}
+.stamp{
+    width: 115px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    transform: rotate(-348deg);
+
+}
+.receipt-footer{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: #08d5a2;
+}
+           /* small Device */
+           @media screen and (max-width: 600px){
+       }
+       .width{
+           width: 300px;
+           margin-left: 100px;
+           margin-top: 50px;
+        
+       }
+    
+             /* Normal Device */
+ @media screen and (min-width: 601px) and (max-width: 768px)
+ {
+     
+         .receipt{
+             width:100px;
+             margin: 10px 20px;
+         }
+     
+ }
+    /* Large Device */
+@media screen and (min-width: 993px) and (max-width: 1200px)
+{
+.width{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+
+}
