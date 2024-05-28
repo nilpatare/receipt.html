@@ -9,7 +9,7 @@ body{
 .brand-title{
     text-align: center;
 }
-.receipt-container{
+.container{
     width:80%;
     border:1px solid grey;
     margin:0 auto;
@@ -18,7 +18,7 @@ body{
     border-radius: 5px;
     box-shadow: 0 20px 15px rgba(0,0,0,0.2);
 }
-.receipt-header{
+.header{
     border-bottom: 1px solid gray;
 }
 .address{
